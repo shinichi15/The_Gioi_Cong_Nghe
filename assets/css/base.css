@@ -1,0 +1,23 @@
+:root {
+    /* Color */
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+    /* Height */
+    
+}
+
+*, html {
+    text-decoration: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
