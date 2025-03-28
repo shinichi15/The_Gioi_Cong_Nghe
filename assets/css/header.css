@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header__logo-link {
+    /* width: 50px; */
+    text-align: center;
+    color: var(--text-colors);
+}
+
+p.header__logo-name {
+    font-family: "Pacifico", serif;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+p.header__logo-desc {
+    font-family: "Caveat", serif;
+    font-size: 20px;
+    line-height: 26px;
+}

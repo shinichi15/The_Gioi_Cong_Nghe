@@ -8,22 +8,64 @@
         </title>
         <link rel="shortcut icon" href="./assets/img/microchip-solid.svg" type="image/x-icon">
 
+        <!-- Css -->
         <link rel="stylesheet" href="./assets/data/fontawesome-free-6.7.2-web/css/all.min.css">
         <link rel="stylesheet" href="./assets/css/base.css">
         <link rel="stylesheet" href="./assets/css/navtop.css">
+        <link rel="stylesheet" href="./assets/css/header.css">
+
+        <!-- JS -->
+        <script src="./assets/js/dungchung.js"></script>
+        <script src="./assets/js/trangchu.js"></script>
     </head>
     <body>
         <div id="wrapper">
             <section>
                 <div id="navtop">
-                    <a href="" class="navtop__item">
-                        Store Location
-                    </a>
-                    <div class="navtop__item">
-    
+                    <div class="navtop__list">
+                        <a href="./storeLocation.html" class="navtop__item">
+                            <i class="navtop__item--icon fa-solid fa-map-location-dot"></i>
+                            Store Location
+                        </a>
+                        <div class="navtop__item downloadApp">
+                            <i class="navtop__item--icon fa-solid fa-download"></i>
+                            Download App
+
+                            <div class="download-app__container">
+
+                            </div>
+                        </div>
+                        <a href="help.html" class="navtop__item">
+                            <i class="navtop__item--icon fa-solid fa-circle-question"></i>
+                            Help
+                        </a>
+                    </div>
+                    <div class="navtop__list no-pointer">
+                        Welcome to Techubster. We provides Best Electronic.
+                    </div>
+                    <div class="navtop__list">
+                        <a href="mywishlist.html" class="navtop__item">
+                            <i class="navtop__item--icon fa-solid fa-truck-fast"></i>
+                            Track Your Order
+                        </a>
+                        <div class="navtop__item no-pointer">
+                            <i class="navtop__item--icon fa-solid fa-calendar-days"></i>
+                            <div id="date__container"></div>
+                        </div>
                     </div>
                 </div>
-                <div id="header"></div>
+                <div id="header">
+                    <div id="header__logo">
+                        <a href="index.html" class="header__logo-link">
+                            <p class="header__logo-name">Techubster</p>
+                            <p class="header__logo-desc">Best Electronic. Genuine goods</p>
+                        </a>
+                    </div>
+                    <div id="header__search"></div>
+                    <div id="header__tool">
+
+                    </div>
+                </div>
                 <div id="container"></div>
                 <div id="container"></div>
             </section>

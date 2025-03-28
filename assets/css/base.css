@@ -3,8 +3,10 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: rgb(154, 219, 179);
 
     /* Height */
+    --navbar-height: 26px;
     
 }
 
@@ -20,4 +22,8 @@
 section {
     margin: 0 auto;
     max-width: 1200px;
+}
+
+a {
+    cursor: pointer;
 }
