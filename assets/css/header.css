@@ -4,13 +4,14 @@
 #header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
 }
 
 .header__logo-link {
     /* width: 50px; */
     text-align: center;
-    color: var(--text-colors);
+    color: var(--text-color);
 }
 
 p.header__logo-name {
@@ -23,4 +24,83 @@ p.header__logo-desc {
     font-family: "Caveat", serif;
     font-size: 20px;
     line-height: 26px;
+}
+
+form#search__container {
+    background-color: #fafafa;
+    width: 500px;
+    display: flex;
+    border: 1px solid #ccc;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search__box {
+    background-color: #f0f1f2;
+    height: 45px;
+    flex: 1;
+    padding-left: 15px;
+    border-radius: 49px 0 0 49px;
+    border: none;
+    font-size: 15px;
+}
+
+i.search__icon.fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 45px;
+    border-radius: 0 49px 49px 0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.tags {
+    display: flex;
+    margin-top: 1px;
+}
+
+.tags strong {
+    font-size: 15px;
+    margin-left: 10px;
+    cursor: default;
+    user-select: none;
+}
+
+.tags a {
+    margin: 0 5px;
+    color: var(--text-color);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tags a:hover {
+    color: var(--text-hover);
+    text-decoration: underline;
+}
+
+.header__tool {
+    display: flex;
+}
+
+.header__tool > .header__tool-item {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 50%;
+    color: var(--text-color);
+    margin: 0 10px;
+    transition-duration: 0.2s;
+}
+
+.header__tool > .header__tool-item:hover {
+    border: 1px solid var(--white-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
 }
