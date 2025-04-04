@@ -5,10 +5,11 @@
     --text-color: #333;
     --primary-color: rgb(154, 219, 179);
     --text-hover: #00000080;
+    --border-color: #ccc;
 
     /* Height */
     --navbar-height: 26px;
-    
+    --header-lower-height: 60px;
 }
 
 *, html {
@@ -26,6 +27,6 @@ section {
     max-width: 1200px;
 }
 
-a {
+a, button {
     cursor: pointer;
 }
