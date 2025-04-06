@@ -27,7 +27,7 @@
 }
 
 .no__pointer {
-    cursor: default;
+    cursor: default; 
     user-select: none;
     background-color: inherit;
     color: inherit;

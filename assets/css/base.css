@@ -10,6 +10,7 @@
     /* Height */
     --navbar-height: 26px;
     --header-lower-height: 60px;
+    --category-menu-height: 40px;
 }
 
 *, html {
@@ -20,6 +21,8 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--white-color);
+    list-style: none;
+
 }
 
 section {
