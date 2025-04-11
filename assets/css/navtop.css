@@ -58,6 +58,7 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     animation: hideAndShow ease-in-out 0.2s;
     transform-origin: top left;
+    z-index: 10;
 }
 
 .downloadApp__container::before {

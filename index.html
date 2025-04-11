@@ -79,7 +79,7 @@
                         <input type="text" name="Search" id="search__box" placeholder="Search For Product">
                         <i id="search_btn" class="search__icon fa-solid fa-magnifying-glass"></i>
                     </form>
-                    <div class="tags">
+                    <div class="tags_container">
                         <strong>Keyword:</strong>
                     </div>
                 </div>
@@ -107,40 +107,197 @@
 
                         <div class="category-menu">
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Điện thoại, Tablet</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-mobile-alt"></i>
+                                    <a href="phone.html" class="category__item">Điện thoại</a>
+                                    <span>,&nbsp;</span>
+                                    <a href="tablet.html" class="category__item">Tablet</a>
+
+                                    <div class="mega-menu">
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Phone Brand</h3>
+                                            <ul class="phone-brand mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Price Level</h3>
+                                            <ul class="phone-pricelevel mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Phone HOT ⚡</h3>
+                                            <ul class="phone-hot mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Tablet Brand</h3>
+                                            <ul class="tablet-brand mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Tablet HOT ⚡</h3>
+                                            <ul class="tablet-hot mega-column__list"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Laptop</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-laptop"></i>
+                                    <a href="" class="category__item">Laptop</a>
+
+                                    <div class="mega-menu">
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Laptop Brand</h3>
+                                            <ul class="laptop-hot mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Price Level</h3>
+                                            <ul class="laptop-pricelevel mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Chip Level</h3>
+                                            <ul class="laptop-chiplevel mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Demand User</h3>
+                                            <ul class="laptop-demanduser mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Screen Size</h3>
+                                            <ul class="laptop-screensize mega-column__list"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Âm thanh, Mic thu âm</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-headphones-simple"></i>
+                                    <a href="#" class="category__item">Âm thanh</a>
+                                    <span>,&nbsp;</span>
+                                    <a href="" class="category__item">Mic thu âm</a>
+
+                                    <div class="mega-menu">
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Headphone Type</h3>
+                                            <ul class="headphone-type mega-column__list"></ul>
+
+                                            <div class="mega-column__item">
+                                                <h3 class="mega-column__title">Sound Type</h3>
+                                                <ul class="sound-type mega-column__list"></ul>
+                                            </div>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Headphone Brand</h3>
+                                            <ul class="headphone-brand mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Price Level</h3>
+                                            <ul class="priceLevel mega-column__list"></ul>
+
+                                            <div class="mega-column__item">
+                                                <h3 class="mega-column__title">Mic Type</h3>
+                                                <ul class="mic-type mega-column__list"></ul>
+                                            </div>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Sound Brand</h3>
+                                            <ul class="sound-brand mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Feature Products ⚡</h3>
+                                            <ul class="sound-featureproduct mega-column__list"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Đồng hồ, Camera</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-regular fa-clock"></i>
+                                    <a href="#" class="category__item">Đồng hồ</a>
+                                    <span>,&nbsp;</span>
+                                    <a href="" class="category__item">Camera</a>
+
+                                    <div class="mega-menu">
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Watch Type</h3>
+                                            <ul class="laptop-hot mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Watch Brand</h3>
+                                            <ul class="laptop-pricelevel mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Feature Products ⚡</h3>
+                                            <ul class="laptop-chiplevel mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Camera</h3>
+                                            <ul class="laptop-demanduser mega-column__list"></ul>
+                                        </div>
+                                        <div class="mega-column">
+                                            <h3 class="mega-column__title">Camera Feature Products ⚡</h3>
+                                            <ul class="laptop-screensize mega-column__list"></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Đồ gia dụng</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-plug"></i>
+                                    <a href="#" class="category__item">Phụ kiện</a>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Phụ kiện</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-desktop"></i>
+                                    <a href="" class="category__item">PC</a>
+                                    <span>,&nbsp;</span>
+                                    <a href="" class="category__item">Screen</a>
+                                    <span>,&nbsp;</span>
+                                    <a href="" class="category__item">Printer</a>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">PC, Màn hình, Máy in</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-tv"></i>
+                                    <a href="#" class="category__item">Tivi</a>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Tivi</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-recycle"></i>
+                                    <a href="#" class="category__item">Old Autumn Renewal</a>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                             <div class="category-menu__item">
-                              <a href="#" class="category__item">Thu cũ đổi mới</a>
-                            </div>
-                            <div class="category-menu__item">
-                              <a href="#" class="category__item">Hàng cũ</a>
-                            </div>
-                            <div class="category-menu__item">
-                              <a href="#" class="category__item">Khuyến mãi</a>
-                            </div>
-                            <div class="category-menu__item">
-                              <a href="#" class="category__item">Tin công nghệ</a>
+                                <div class="category-menu__item--left">
+                                    <i class="category-menu__item--icon fa-solid fa-sync-alt"></i>
+                                    <a href="#" class="category__item">Used Goods</a>
+                                </div>
+                                <div class="category-menu__item--right">
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
